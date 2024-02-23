@@ -18,6 +18,19 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+html{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 16px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
